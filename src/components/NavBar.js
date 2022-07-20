@@ -1,6 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.css'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
 
 function App() {
@@ -36,4 +37,4 @@ function App() {
   );
 }
 
-export default App;
+export default BasicExample;
